@@ -1,0 +1,14 @@
+weather-backend/
+│── app/
+│   ├── main.py        # Точка входа FastAPI
+│   ├── api.py         # Маршруты и логика
+│   ├── utils.py       # Работа с внешним API
+│   └── config.py      # Настройки API
+│── requirements.txt    # Зависимости
+│── README.md           # Описание проекта
+│── .gitignore          # Исключения
+---
+.env.example            # Пример переменных окружения
+tests/                  # Тесты
+Dockerfile              # Контейнеризация
+LICENSE                 # Лицензия MIT
